@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite", 
+    "start": "react-scripts start"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +14,10 @@
   "dependencies": {
     "react-router-dom": "^7.13.1",
     "tailwind": "^2.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.27",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^3.4.19"
   }
 }

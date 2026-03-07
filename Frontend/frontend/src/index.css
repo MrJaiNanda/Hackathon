@@ -7,10 +7,11 @@
  src: url("../src/assets/Font/Anton-Regular.ttf") format("truetype");
 }
 
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 @theme{
  --font-Manrope: 'Manrope', "sans-serif";
  --font-Anton: 'Anton',"sans-serif";
 }
-
